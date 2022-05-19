@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
-      - uses: action/checout@v3
+        uses: action/checout@v3
       - run: make say-hello
