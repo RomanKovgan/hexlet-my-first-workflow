@@ -3,6 +3,7 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps: 
+    steps:
+      - name: Check out repository code
       - uses: action/checout@v3
       - run: make say-hello
