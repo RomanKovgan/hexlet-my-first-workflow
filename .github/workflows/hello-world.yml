@@ -4,4 +4,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps: 
+      - uses: action/checout@v2
       - run: make say-hello
